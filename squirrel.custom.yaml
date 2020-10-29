@@ -17,11 +17,14 @@ patch:
     #com.runningwithcrayons.Alfred-2:
       #ascii_mode: true
   style:
+    font_face: "WeibeiSC-Bold"
+    horizontal: true
+    font_point: 40
     #color_scheme: homepage
     #color_scheme: psionics
     #color_scheme: purity_of_form
     #color_scheme: apathy
-    color_scheme: mojave_dark
+    #color_scheme: mojave_dark
     #color_scheme: clean_white
     #color_scheme: native
-    #color_scheme: starcraft
+    color_scheme: starcraft
