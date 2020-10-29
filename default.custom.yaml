@@ -23,8 +23,13 @@ patch:
     email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
     uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
+
   switcher/caption: "〔切换〕"
   menu/page_size: 5
+
+  switcher/hotkeys:
+    - Control+Shift+0
+
   key_binder/bindings:
     - {accept: "Control+p", send: Up, when: composing}
     - {accept: "Control+n", send: Down, when: composing}
